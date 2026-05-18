@@ -46,15 +46,15 @@ La aplicación se abrirá en `http://localhost:5173` por defecto.
 
 ## Capturas de pantalla
 
-![Inicio](./screen/cards.png)
+![Inicio](./src/screen/cards.png)
 
-![Lista de Productos](./screen/listado.png)
+![Lista de Productos](./src/screen/listado.png)
 
-![Lista de Tareas](./screen/tareas.png)
+![Lista de Tareas](./src/screen/tareas.png)
 
-![Contador](./screen/contador.png)
+![Contador](./src/screen/contador.png)
 
-![Formulario de Contacto](./screen/formulario.png)
+![Formulario de Contacto](./src/screen/formulario.png)
 
 ---
 ## Estructura del proyecto
