@@ -30,7 +30,7 @@ Aplicación web desarrollada con React y Vite que reúne distintos componentes i
 
 ```bash
 # Clonar el repositorio
-git clone <https://github.com/Antony27c/react-tp6 >
+git clone <https://github.com/GabrielUlunqui/TP-6-APP-CON-REACT.git >
 cd mi-app
 
 # Instalar dependencias
