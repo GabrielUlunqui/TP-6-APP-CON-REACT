@@ -40,7 +40,7 @@ function ListaTareas() {
   const completadas = tareas.filter((t) => t.completada).length;
 
   return (
-    <div>
+    <div className="lista-tareas">
       <h1>Lista de Tareas</h1>
 
       <form onSubmit={agregarTarea}>
@@ -53,13 +53,16 @@ function ListaTareas() {
 
         <button type="submit">Agregar</button>
       </form>
-
+      <div className="contadores">
       <p>Tareas pendientes: {pendientes}</p>
       <p>Tareas completadas: {completadas}</p>
-
+      <div/>  
       <ul>
         {tareas.map((t) => (
-          <li key={t.id}>
+          <li key={t.id}
+          className={t.completada ? "completada" : ""}
+          >
+          <div className="tarea-info">
             <input
               type="checkbox"
               checked={t.completada}
@@ -75,13 +78,14 @@ function ListaTareas() {
             >
               {t.texto}
             </span>
-
+            </div>
             <button onClick={() => eliminarTarea(t.id)}>
               Eliminar
             </button>
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 }

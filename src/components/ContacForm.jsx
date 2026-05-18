@@ -50,7 +50,7 @@ function Formulario() {
                  Enviar
                 </button>
             </form>
-            <div>
+            <div className="preview">
                 <h3>PREVIEW EN VIVO</h3>
                 <p><strong>Nombre:</strong> {nombre ||"---"}</p>
                 <p><strong>Email:</strong> {email ||"---"}</p>

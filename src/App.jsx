@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+    <div style={{ maxWidth: "970px", margin: "0 auto", padding: "2rem" }}></div>
       <Header/>
       <CardList/>
       <Contador/>

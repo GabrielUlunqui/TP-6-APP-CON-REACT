@@ -6,8 +6,13 @@ import tv from '../assets/tv.avif'
 
 function CardList() {
   return (
-    <div>
-      <h2>Cards</h2>
+     <div>
+     <h2 className="titulo-seccion">
+        Productos Destacados
+      </h2>
+  
+    <div className='cards-container'>
+    
 
       <Card titulo="PORTATIL" descripcion="NOTEBOOK INTEL I7" imagen={computadora} precio={1200}>
         <p>Envio gratis</p>
@@ -24,6 +29,7 @@ function CardList() {
       <Card titulo="TELEVISOR" descripcion="Televisor LG 55° " imagen={tv} precio={350}>
         <p>Última unidad</p>
       </Card>
+    </div>
     </div>
   );
 }

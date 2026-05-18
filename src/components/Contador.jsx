@@ -5,7 +5,7 @@ function Contador(){
 
 return(
 
-    <div>
+    <div className="contador">
         <h1>CONTADOR</h1>
         <p>{contador}</p>
 

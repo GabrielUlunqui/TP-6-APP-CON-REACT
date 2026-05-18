@@ -41,7 +41,7 @@ function ProductoList() {
                     {" "}Solo en stock
                 </label>
             </div>
-
+            <div className="cards-container">
              {productosFiltrados.map((producto) => (
                 <Card 
                     key={producto.id}
@@ -53,6 +53,7 @@ function ProductoList() {
                     <p>{producto.enStock ? "En stock" : "No hay productos"}</p>
                 </Card>
             ))}
+            </div>
         </div>
     );
 }
